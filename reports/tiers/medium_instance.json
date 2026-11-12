@@ -1,0 +1,21 @@
+{
+  "task": "medium_instance",
+  "type": "instance",
+  "group": "tiers",
+  "points": 13.6,
+  "weight": 32,
+  "result": {
+    "metric": "mean_matched_IoU x recall",
+    "value": 0.5915733175591529,
+    "mean_matched_iou": 0.8077251066673049,
+    "precision@0.5": 0.7878787878787878,
+    "recall@0.5": 0.7323943661971831,
+    "tp": 52,
+    "fp": 14,
+    "fn": 19,
+    "gt_instances": 71,
+    "submitted_instances": 66,
+    "count_error": -5
+  },
+  "review_flags": []
+}
