@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-12",
+  "changes": [
+    {
+      "task": "cp1_holes",
+      "action": "update",
+      "previous_shape_id": 764,
+      "frame": 0,
+      "reason": "Bổ sung bánh trước, kính chắn gió và mảng fairing trái; bỏ phần giá chống tách rời, chỉ giữ phần xe nhìn thấy."
+    },
+    {
+      "task": "cp1_holes",
+      "action": "update",
+      "previous_shape_id": 766,
+      "frame": 0,
+      "reason": "Bỏ vùng xe máy khỏi mask phương tiện phía sau, giữ phần phía sau còn nhìn thấy."
+    },
+    {
+      "task": "medium_instance",
+      "action": "create",
+      "previous_shape_id": null,
+      "frame": 0,
+      "reason": "Thêm pickup bạc (truck, có thùng hàng) ở giữa hậu cảnh ảnh 000000181542.jpg, sau người đi bộ; không tô xuyên người/xe máy phía trước."
+    },
+    {
+      "task": "cp6_coverage",
+      "action": "update",
+      "previous_shape_id": 772,
+      "frame": 0,
+      "reason": "Bus trắng lớn giữa ảnh không thuộc schema CP6; bỏ vùng bus khỏi car, giữ các xe con còn lại."
+    },
+    {
+      "task": "cp6_coverage",
+      "action": "update",
+      "previous_shape_id": 768,
+      "frame": 0,
+      "reason": "Chuyển phần lát gạch bên phải bó vỉa từ road sang sidewalk; không tô lên cột/người/xe đã có."
+    },
+    {
+      "task": "cp6_coverage",
+      "action": "update",
+      "previous_shape_id": 769,
+      "frame": 0,
+      "reason": "Nhận vùng lát gạch đi bộ nhìn thấy bên phải đường theo chức năng và đường bó vỉa."
+    },
+    {
+      "task": "cp4_curb",
+      "action": "update",
+      "previous_shape_id": 797,
+      "frame": 0,
+      "reason": "Cắt road tại phía mặt đường của bó vỉa, bỏ vùng đất quanh gốc cây và phần nắp xe ở mép dưới ảnh."
+    },
+    {
+      "task": "hard_panoptic",
+      "action": "keep",
+      "previous_shape_id": 861,
+      "frame": 1,
+      "reason": "Sau phóng to, xe đỏ dưới phải là minivan; giữ class car ban đầu. Thử nghiệm đổi bus đã được khôi phục."
+    }
+  ],
+  "reference_masks_copied": false,
+  "source": "Local CVAT annotations and visible input images; AI-assisted QC"
+}

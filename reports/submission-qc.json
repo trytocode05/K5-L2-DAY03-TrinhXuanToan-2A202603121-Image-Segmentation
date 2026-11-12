@@ -34,15 +34,16 @@
           "000000373353.jpg",
           "000000458325.jpg"
         ],
-        "annotation_count": 66,
+        "annotation_count": 67,
         "segmentation_kinds": {
-          "RLE": 66
+          "RLE": 67
         },
         "counts_by_image_class": {
           "000000181542.jpg / bus": 1,
           "000000181542.jpg / car": 3,
           "000000181542.jpg / motorcycle": 4,
           "000000181542.jpg / person": 12,
+          "000000181542.jpg / truck": 1,
           "000000373353.jpg / bus": 1,
           "000000373353.jpg / car": 15,
           "000000373353.jpg / person": 9,
